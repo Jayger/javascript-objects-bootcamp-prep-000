@@ -1,5 +1,9 @@
 var playlist = {gorillaz: "Humility"};
 
+function removeFromPlaylist(playlist, artistName) {
+  delete
+}
+
 function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, {artistName: songTitle});
 }
